@@ -39,9 +39,10 @@ alert("My name is #{name} and my age is #{15 + 6}")
 hello = """
 	<h1> 
 		This is my attempt to use HTML in Coffescript.
-			<h2> Hopefully this works.</h2>
+			<h2> Here's a rough skeleton etching of a website<br />
+			I am developping. <br /><br />
+			<a href="http://www4.ncsu.edu/~dhamilt/">Please Click Me!</a>
+			</h2>
 		</h1> 
 		"""
  
-#I'm not sure if this html works though.
-
