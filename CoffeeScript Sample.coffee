@@ -1,12 +1,11 @@
-CoffeeScript-under-construction-
-===============================
+
 name = "Daniel"
-person =true
+person = true
 
 yell = (a) ->
   age = a
   alert name
-	alert age
+  alert age
 	
 yell(25) if person is true and name isnt "Daniel"
 
@@ -30,6 +29,8 @@ iLike type...
 alert "#{item}s" for item in type when item is "Cup"
 alert typeOne = ("#{item}s" for item in type when item isnt "Cup")
 alert typeTwo = (item for item in type when item isnt "Cup")
+
+
 
 switch colors 
 	when "Blue" then alert Blue
